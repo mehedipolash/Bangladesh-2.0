@@ -1,0 +1,132 @@
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav styles */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li{
+  list-style: none;
+   margin-right: 100px;   
+}
+
+  nav h5 {
+  margin-right: auto;
+}
+
+#sign-in-btn{
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500px;
+  color: #006A50;
+  border: 2px solid #006A50;
+}
+
+/* header style */
+
+#Explore-btn{
+  padding: 16px 32px;
+  font-size: 18px;
+  background-color: rgb(0, 106, 80);
+  color: white;
+}
+
+.header-banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160PX;
+  background-color: #C6E4D6;
+}
+
+.header-banner-content{
+   margin-left: 59px;
+   margin-bottom: 59px;
+}
+
+#header-img-position{
+      margin-left: 59px;
+   margin-bottom: 59px;
+}
+
+.pillars-container{
+  display: flex;
+  gap: 24px;
+  margin: 0 160PX;
+}
+
+.pillar{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+.pillar-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.common-title{
+  margin: 0 160px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+/* Vision style */
+
+#vision-paragraph{
+  margin: 0 160PX;
+  margin-bottom: 30px;
+}
+
+.vision-container{
+  display: flex;
+  gap: 24px;
+  margin: 0 160PX;
+}
+
+.vision{
+  padding: 32px 32px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.vision-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pillar-description{
+  font-weight: 16px;
+}
+
+.vision-btn{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+#f-vision-btn-color{
+ background-color: #5490F5;
+  border: none;
+}
+#s-vision-btn-color{
+  background-color: green;
+   border: none;
+}
+#t-vision-btn-color{
+  background-color: #FFC239;
+  border: none;
+}
